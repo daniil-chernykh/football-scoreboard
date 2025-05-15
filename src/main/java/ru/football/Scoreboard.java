@@ -54,7 +54,7 @@ public class Scoreboard {
         return matches.values().stream()
                 .sorted(Comparator.comparingInt(Match::getTotalScore)
                         .reversed()
-                        .thenComparing(Match::getStartTime).reversed())
+                        .thenComparing(Match::getStartTime, Comparator.reverseOrder()))
                 .collect(Collectors.toList());
     }
 
