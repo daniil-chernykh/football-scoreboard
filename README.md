@@ -11,7 +11,7 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   
+   git clone https://github.com/daniil-chernykh/football-scoreboard.git
    cd football-scoreboard
    ```
 2. Сборка проекта:
